@@ -87,3 +87,18 @@ a {
     padding:5px 10px;
     margin-top:10px;
 }
+
+.navbar-toggle {
+    position: relative;
+	background-color: #141c3d;
+	color: white;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: white;
+}
+
+.navbar-toggle:hover {
+    background-color:#141c3d !important;
+    color:white;
+}
