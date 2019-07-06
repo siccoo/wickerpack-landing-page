@@ -1,3 +1,14 @@
+/*Template Name: WickerPark Resources Pages
+Author: Chilaka Michael Obinna
+Author URL: github.com/siccoo
+Version: 1.0.0
+Website: 
+*/
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
 @font-face {
 	font-family: 'Circular-Black';
 	src: url('../Font/circular-std-book/CircularStd-Black.otf');
@@ -70,6 +81,15 @@ a {
 	text-decoration:none;
 }
 
+/* ==========================================================================
+   02. HEADER & NAVIGATION
+   ========================================================================== 
+*/
+
+/*------------------------------------------*/
+/*	 Navigation Bar
+/*------------------------------------------*/
+
 .navbar-default {
     background-color: #141c3d;
     border-radius:none !important;
@@ -88,6 +108,10 @@ a {
     margin-top:10px;
 }
 
+/*------------------------------------------*/
+/*	 Responsive Toggle Menu Button
+/*------------------------------------------*/
+
 .navbar-toggle {
     position: relative;
 	background-color: #141c3d;
@@ -101,4 +125,12 @@ a {
 .navbar-toggle:hover {
     background-color:#141c3d !important;
     color:white;
+}
+
+/*------------------------------------------*/
+/*	 Logo Image
+/*------------------------------------------*/
+
+.home-logo {
+    width:130px;
 }
