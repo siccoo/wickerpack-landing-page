@@ -134,3 +134,97 @@ a {
 .home-logo {
     width:130px;
 }
+
+.hero-section {
+    padding: 30px 0;
+}
+
+.hero-section h1 {
+    padding-top: 150px;
+    color: #141c3d;
+}
+
+@media only screen and (max-width:1024px) {
+    .hero-section h1 {
+        padding-top: 30px;
+    }
+}
+
+.hero-section p {
+    font-family: 'Circular-Medium';
+    padding-top: 8px;
+    font-size: 14px;
+}
+
+.hero-section h1 span {
+    color: #5dc41d;
+}
+
+.social {
+    padding-top: 15px;
+}
+
+.about-section {
+    padding: 30px 0;
+}
+
+.about-section h1 {
+    font-size: 23px;
+    color: #141c3d;
+}
+
+.abt-card {
+    border: 2px solid #f8f8f8;
+    padding: 20px;
+    height: 300px;
+    border-radius: 4px;
+}
+
+.abt-card img {
+    width: 50px;
+}
+
+.abt-card h4 {
+    color: #141c3d;
+}
+
+.abt-card p {
+    font-family: 'Circular-Medium';
+    font-size: 15px;
+    line-height: 2;
+    max-width:400px;
+    margin:auto;
+}
+
+
+.about-section h3 {
+    font-family: 'Circular-Book';
+    line-height: 1.8;
+    /*margin-top: 5px;*/
+    max-width: 878px;
+    margin: auto;
+}
+
+.about-section h3 span {
+    color: #5dc41d;
+}
+
+.about-section h6 {
+    font-family: 'Circular-Book';
+    font-size: 18px;
+    line-height: 1.8;
+    max-width: 510px;
+    margin: auto;
+    color: #dfdfdf;
+}
+
+#divider {
+    width: 155px;
+    height: 5px;
+    background-color: #e4f5da;
+    border-radius: 7px;
+    margin: auto;
+}
+
+
+
