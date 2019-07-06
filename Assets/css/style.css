@@ -1,0 +1,89 @@
+@font-face {
+	font-family: 'Circular-Black';
+	src: url('../Font/circular-std-book/CircularStd-Black.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Bold';
+	src: url('../Font/circular-std-book/CircularStd-Bold.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Book-Italics';
+	src: url('../Font/circular-std-book/CircularStd-BookItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Book';
+	src: url('../Font/circular-std-book/CircularStd-Book.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Black-Italics';
+	src: url('../Font/circular-std-book/CircularStd-BlackItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Bold-Italics';
+	src: url('../Font/circular-std-book/CircularStd-BoldItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Medium';
+	src: url('../Font/circular-std-book/CircularStd-Medium.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+	font-family: 'Circular-Medium-Italics';
+	src: url('../Font/circular-std-book/CircularStd-MediumItalic.otf');
+    font-style: normal;
+    font-weight: normal;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+  margin:0 !important;
+}
+
+body {
+	font-family: 'Circular-Black', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	margin:0 !important;
+}
+
+a {
+	text-decoration:none;
+}
+
+.navbar-default {
+    background-color: #141c3d;
+    border-radius:none !important;
+}
+
+.navbar .navbar-nav .nav-menu {
+    color:white;
+    margin-right:50px;
+}
+
+.navbar .navbar-nav .nav-contact {
+    background-color:#5dc41d;
+    color:white;
+    border-radius:3px;
+    padding:5px 10px;
+    margin-top:10px;
+}
