@@ -68,17 +68,17 @@ Website:
 html {
   position: relative;
   min-height: 100%;
-  margin:0 !important;
+  margin: 0 !important;
 }
 
 body {
-	font-family: 'Circular-Black', sans-serif;
+	font-family: 'Circular-Black';
 	-webkit-font-smoothing: antialiased;
-	margin:0 !important;
+	margin: 0 !important;
 }
 
 a {
-	text-decoration:none;
+	text-decoration: none;
 }
 
 /* ==========================================================================
@@ -92,20 +92,20 @@ a {
 
 .navbar-default {
     background-color: #141c3d;
-    border-radius:none !important;
+    border-radius: none !important;
 }
 
 .navbar .navbar-nav .nav-menu {
-    color:white;
-    margin-right:50px;
+    color: #ffffff;
+    margin-right: 50px;
 }
 
 .navbar .navbar-nav .nav-contact {
     background-color:#5dc41d;
-    color:white;
-    border-radius:3px;
-    padding:5px 10px;
-    margin-top:10px;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 5px 10px;
+    margin-top: 10px;
 }
 
 /*------------------------------------------*/
@@ -115,16 +115,16 @@ a {
 .navbar-toggle {
     position: relative;
 	background-color: #141c3d;
-	color: white;
+	color: #ffffff;
 }
 
 .navbar-toggle .icon-bar {
-	background-color: white;
+	background-color: #ffffff;
 }
 
 .navbar-toggle:hover {
-    background-color:#141c3d !important;
-    color:white;
+    background-color: #141c3d !important;
+    color: #ffffff;
 }
 
 /*------------------------------------------*/
@@ -132,8 +132,12 @@ a {
 /*------------------------------------------*/
 
 .home-logo {
-    width:130px;
+    width: 130px;
 }
+
+/*------------------------------------------*/
+/*	 Hero Section Starts
+/*------------------------------------------*/
 
 .hero-section {
     padding: 30px 0;
@@ -164,11 +168,20 @@ a {
     padding-top: 15px;
 }
 
+/*------------------------------------------*/
+/*	 Hero Section Ends
+/*------------------------------------------*/
+
+/*------------------------------------------*/
+/*	 About Section Start
+/*------------------------------------------*/
+
 .about-section {
     padding: 30px 0;
 }
 
 .about-section h1 {
+    font-family: 'Circular-Medium';
     font-size: 23px;
     color: #141c3d;
 }
@@ -192,8 +205,8 @@ a {
     font-family: 'Circular-Medium';
     font-size: 15px;
     line-height: 2;
-    max-width:400px;
-    margin:auto;
+    max-width: 400px;
+    margin: auto;
 }
 
 
@@ -226,5 +239,22 @@ a {
     margin: auto;
 }
 
+/*------------------------------------------*/
+/*	 About Section Ends
+/*------------------------------------------*/
 
+/*------------------------------------------*/
+/*	 Projects Section Starts
+/*------------------------------------------*/
+
+.projects-section {
+    background-color: #141c3d;
+    height: 700px;
+}
+
+.projects-section h2 {
+    font-family: 'Circular-Medium';
+    font-size: 23px;
+    color: #ffffff;
+}
 
