@@ -100,6 +100,10 @@ a {
     margin-right: 50px;
 }
 
+.navbar .navbar-nav .nav-menu:hover, .navbar .navbar-nav .nav-menu:active, .navbar .navbar-nav .nav-menu:focus {
+    color: #ffffff;
+}
+
 .navbar .navbar-nav .nav-contact {
     background-color:#5dc41d;
     color: #ffffff;
@@ -107,6 +111,11 @@ a {
     padding: 5px 10px;
     margin-top: 10px;
 }
+
+.navbar .navbar-nav .nav-contact:hover, .navbar .navbar-nav .nav-contact:active, .navbar .navbar-nav .nav-contact:focus {
+    background-color: #5dc41d;
+    color: #ffffff;
+} 
 
 /*------------------------------------------*/
 /*	 Responsive Toggle Menu Button
@@ -251,11 +260,11 @@ a {
     padding: 50px 0;
 }
 
-.projects-section h1 {
+.projects-section h5 {
     font-family: 'Circular-Medium';
     font-size: 30px;
     color: #ffffff;
-    line-height: 2;
+    /* line-height: 2; */
 }
 
 .projects-section .projects {
@@ -268,7 +277,7 @@ a {
 
 .projects-section .proj-card {
     margin-top: 100px;
-    align-self: stretch;
+    /* align-self: stretch; */
 }
 
 @media only screen and (max-width:1024px) {
@@ -279,6 +288,7 @@ a {
 
 .projects-section h1 {
     font-family: 'Circular-Book';
+    color: #ffffff;
 }
 
 .projects-section p {
