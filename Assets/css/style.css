@@ -298,6 +298,20 @@ a {
 /*	 Projects Section Ends
 /*------------------------------------------*/
 
+/*------------------------------------------*/
+/*	 Events Section Starts
+/*------------------------------------------*/
+
+.events-section {
+    padding: 50px 0;
+}
+
+.events-section h1 {
+    font-family: 'Circular-Medium';
+    font-size: 40px;
+    color: #3e374b;
+    margin: 30px 0;
+}
 
 
 
