@@ -210,7 +210,6 @@ a {
     margin: auto;
 }
 
-
 .about-section h3 {
     font-family: 'Circular-Book';
     line-height: 1.8;
@@ -236,7 +235,7 @@ a {
     height: 5px;
     background-color: #e4f5da;
     border-radius: 7px;
-    margin: 30px auto;
+    margin: 20px auto;
 }
 
 /*------------------------------------------*/
