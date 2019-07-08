@@ -307,7 +307,7 @@ a {
 /*------------------------------------------*/
 
 .events-section {
-    padding: 50px 0;
+    padding: 50px 0 0 0;
     font-family: 'Circular-Medium';
 }
 
@@ -372,12 +372,12 @@ a {
 
 .contact-section {
     font-family: 'Circular-Medium';
-    background: url('Assets/img/images_131.jpeg') no-repeat;
+    /* background: url('../img/images_131.jpeg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
-    padding: 40px 0;
+    background-size: cover; */
+    padding: 30px 0;
 }
 
 .contact-section h1 {
@@ -385,11 +385,14 @@ a {
     color: #3e374b;
 }
 
-.contact-section .contact-form {
-    
+.contact-section .contact-card {
+    padding: 50px;
+    background-color: #ffffff;
+    border: 2px solid #f6f6f6;
+    border-radius: 4px;
 }
 
-.contact-form .form1 {
+.contact-card .form1 {
     color: #5dc41d;
     font-size: 15px;
     font-family: 'Circular-Book'
@@ -397,12 +400,28 @@ a {
 
 input[type=text], input[type=email] {
     width: 90%;
-    padding: 10px;
+    height: 40px;
     border: none;
-    border-bottom-color: #3e374b;
+    border-bottom: 1px solid #3e374b;
 }
 
+.contact-card textarea {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #3e374b;
+}
 
+.contact-card button {
+    width: 453px;
+    height: 40px;
+    font-size: 20px;
+    border: 0;
+    border-radius: 4px;
+    background-color: #5dc41d;
+    color: #ffffff;
+    margin: auto;
+    text-decoration-line: none;
+}
 
 /*------------------------------------------*/
 /*	 Contact-Us Section Ends
@@ -412,7 +431,7 @@ input[type=text], input[type=email] {
 /*	 Footer Section Starts
 /*------------------------------------------*/
 .footer-section {
-    padding: 100px 0;
+    padding: 7px 0 100px 0;
     font-family: 'Circular-Book';
 }
 
