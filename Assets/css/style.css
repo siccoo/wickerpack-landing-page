@@ -323,8 +323,9 @@ a {
     height: 250px;
     background-color: #ffffff;
     padding: 40px;
-    box-shadow: 0 2px 8px 2px #f7f7f7;
+    box-shadow: 0 2px 8px 2px #f6f6f6;
 }
+
 
 .event-card img {
     width: 170px;
@@ -334,7 +335,7 @@ a {
 .event-card h6 {
     font-size: 30px;
     color: #3e374b;
-    padding: 7px 0;
+    /* padding: 7px 0; */
 }
 
 .event-card p {
