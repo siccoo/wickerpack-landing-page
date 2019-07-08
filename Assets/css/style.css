@@ -371,6 +371,7 @@ a {
 /*------------------------------------------*/
 
 .contact-section {
+    font-family: 'Circular-Medium';
     background: url('Assets/img/images_131.jpeg') no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -378,6 +379,30 @@ a {
     background-size: cover;
     padding: 40px 0;
 }
+
+.contact-section h1 {
+    font-size: 40px;
+    color: #3e374b;
+}
+
+.contact-section .contact-form {
+    
+}
+
+.contact-form .form1 {
+    color: #5dc41d;
+    font-size: 15px;
+    font-family: 'Circular-Book'
+}
+
+input[type=text], input[type=email] {
+    width: 90%;
+    padding: 10px;
+    border: none;
+    border-bottom-color: #3e374b;
+}
+
+
 
 /*------------------------------------------*/
 /*	 Contact-Us Section Ends
