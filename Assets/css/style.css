@@ -323,7 +323,7 @@ a {
     height: 250px;
     background-color: #ffffff;
     padding: 40px;
-    /* box-shadow: #3e374b; */
+    box-shadow: 0 2px 8px 2px #f7f7f7;
 }
 
 .event-card img {
@@ -353,10 +353,12 @@ a {
 .event-card button {
     width: 170px;
     height: 45px;
+    border: 0;
     border-radius: 7px;
     background-color: #5dc41d;
     color: #ffffff;
-    margin: 50px 70px;
+    margin: 60px 70px;
+    text-decoration-line: none;
 }
 
 
