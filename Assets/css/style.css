@@ -370,12 +370,43 @@ a {
 /*	 Contact-Us Section Starts
 /*------------------------------------------*/
 
+.contact-section {
+    background: url('Assets/img/images_131.jpeg') no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding: 40px 0;
+}
+
 /*------------------------------------------*/
 /*	 Contact-Us Section Ends
 /*------------------------------------------*/
 
+/*------------------------------------------*/
+/*	 Footer Section Starts
+/*------------------------------------------*/
+.footer-section {
+    padding: 100px 0;
+    font-family: 'Circular-Book';
+}
 
+.foot-logo .footer-logo {
+    width: 120px;
+}
 
+.foot-logo span {
+    font-size: 10px;
+}
+
+.foot-logo .social-icon {
+    float: right;
+    width: 120px;
+}
+
+/*------------------------------------------*/
+/*	 Footer Section Ends
+/*------------------------------------------*/
 
 
 
