@@ -320,7 +320,6 @@ a {
 .event-card {
     border: 2px solid #f8f8f8;
     border-radius: 4px;
-    height: 250px;
     background-color: #ffffff;
     padding: 40px;
     box-shadow: 0 2px 8px 2px #f6f6f6;
@@ -388,8 +387,9 @@ a {
 .contact-section .contact-card {
     padding: 50px;
     background-color: #ffffff;
-    border: 2px solid #f6f6f6;
+    border: 2px solid #f8f8f8;
     border-radius: 4px;
+    box-shadow: 0 1px 2px 2px #f6f6f6;
 }
 
 .contact-card .form1 {
