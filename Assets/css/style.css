@@ -11,56 +11,56 @@ Website:
 
 @font-face {
 	font-family: 'Circular-Black';
-	src: url('../Font/circular-std-book/CircularStd-Black.otf');
+	src: url('../font/circular-std-book/CircularStd-Black.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Bold';
-	src: url('../Font/circular-std-book/CircularStd-Bold.otf');
+	src: url('../font/circular-std-book/CircularStd-Bold.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Book-Italics';
-	src: url('../Font/circular-std-book/CircularStd-BookItalic.otf');
+	src: url('../font/circular-std-book/CircularStd-BookItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Book';
-	src: url('../Font/circular-std-book/CircularStd-Book.otf');
+	src: url('../font/circular-std-book/CircularStd-Book.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Black-Italics';
-	src: url('../Font/circular-std-book/CircularStd-BlackItalic.otf');
+	src: url('../font/circular-std-book/CircularStd-BlackItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Bold-Italics';
-	src: url('../Font/circular-std-book/CircularStd-BoldItalic.otf');
+	src: url('../font/circular-std-book/CircularStd-BoldItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Medium';
-	src: url('../Font/circular-std-book/CircularStd-Medium.otf');
+	src: url('../font/circular-std-book/CircularStd-Medium.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Medium-Italics';
-	src: url('../Font/circular-std-book/CircularStd-MediumItalic.otf');
+	src: url('../font/circular-std-book/CircularStd-MediumItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
@@ -191,7 +191,7 @@ a {
 /*------------------------------------------*/
 
 .about-section {
-    padding: 30px 0;
+    padding: 10px 0 80px 0;
 }
 
 .about-section h1 {
@@ -246,7 +246,7 @@ a {
 
 #divider {
     width: 155px;
-    height: 5px;
+    height: 7px;
     background-color: #e4f5da;
     border-radius: 7px;
     margin: 20px auto;
