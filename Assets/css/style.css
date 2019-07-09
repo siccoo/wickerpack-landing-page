@@ -11,56 +11,56 @@ Website:
 
 @font-face {
 	font-family: 'Circular-Black';
-	src: url('../font/circular-std-book/CircularStd-Black.otf');
+	src: url('../fonts/circular-std-book/CircularStd-Black.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Bold';
-	src: url('../font/circular-std-book/CircularStd-Bold.otf');
+	src: url('../fonts/circular-std-book/CircularStd-Bold.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Book-Italics';
-	src: url('../font/circular-std-book/CircularStd-BookItalic.otf');
+	src: url('../fonts/circular-std-book/CircularStd-BookItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Book';
-	src: url('../font/circular-std-book/CircularStd-Book.otf');
+	src: url('../fonts/circular-std-book/CircularStd-Book.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Black-Italics';
-	src: url('../font/circular-std-book/CircularStd-BlackItalic.otf');
+	src: url('../fonts/circular-std-book/CircularStd-BlackItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Bold-Italics';
-	src: url('../font/circular-std-book/CircularStd-BoldItalic.otf');
+	src: url('../fonts/circular-std-book/CircularStd-BoldItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Medium';
-	src: url('../font/circular-std-book/CircularStd-Medium.otf');
+	src: url('../fonts/circular-std-book/CircularStd-Medium.otf');
     font-style: normal;
     font-weight: normal;
 }
 
 @font-face {
 	font-family: 'Circular-Medium-Italics';
-	src: url('../font/circular-std-book/CircularStd-MediumItalic.otf');
+	src: url('../fonts/circular-std-book/CircularStd-MediumItalic.otf');
     font-style: normal;
     font-weight: normal;
 }
@@ -177,9 +177,23 @@ a {
     padding-top: 15px;
 }
 
-.hero-section .img-circle {
-    border-radius: 10%;
-    border: 0;
+.cont-data {
+    position: relative;
+}
+
+.play {
+    position: absolute;
+    bottom: 40%;
+    left: -8%;
+}
+
+.play i {
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50%;
+    background-color: #5dc41d;
+    padding: 30px 30px 30px 30px;
+    border: 4px solid #e2f2da;
 }
 
 /*------------------------------------------*/
