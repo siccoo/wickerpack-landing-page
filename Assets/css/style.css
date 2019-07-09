@@ -177,6 +177,11 @@ a {
     padding-top: 15px;
 }
 
+.hero-section .img-circle {
+    border-radius: 10%;
+    border: 0;
+}
+
 /*------------------------------------------*/
 /*	 Hero Section Ends
 /*------------------------------------------*/
